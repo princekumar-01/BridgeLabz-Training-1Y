@@ -5,5 +5,6 @@ public class Tempconversion {
         System.out.println("Enter Temp in Celcuis.");
         int a=sc.nextInt();
         System.out.println("Temp in Fahrenheit is :"+((a*9/5)+32));
+        sc.close();
     }
 }

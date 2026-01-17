@@ -10,5 +10,6 @@ public class intrestcalculator {
         System.out.println("Enter Time(Years) :");
         int Time=sc.nextInt();
         System.out.println("Your Total Interest is : "+(Principal*Rate*Time));
+        sc.close();
     }
 } 

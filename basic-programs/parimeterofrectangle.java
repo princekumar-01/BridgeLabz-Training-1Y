@@ -7,5 +7,6 @@ public class parimeterofrectangle {
         System.out.println("Enter Width :");
         int width=sc.nextInt();
         System.out.println("Parimeter of Recatangle is"+ (2*(length + width)));   
+        sc.close();
     }
 }

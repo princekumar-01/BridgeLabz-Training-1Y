@@ -7,5 +7,6 @@ public class Areaofcircle {
         System.out.println("Enter Radius Of Circle:");
         int radius=sc.nextInt();
         System.out.println("Area Of Circle is : "+(Math.PI*radius*radius));
+        sc.close();
     }
 }

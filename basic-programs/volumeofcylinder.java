@@ -8,6 +8,7 @@ public class volumeofcylinder {
         System.out.println("Enter Height Of Cylinder :");
         int Height=sc.nextInt();
         System.out.println("Volume Of Cylinder is : "+(Math.PI*radius*radius*Height));
+        sc.close();
     }
 } 
     
